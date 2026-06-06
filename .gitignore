@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[oc]
+*.egg-info/
+build/
+dist/
+wheels/
+
+# Virtual environments
+.venv/
+
+# uv
+.python-version
+
+# Runtime output
+output/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Models / large binaries
+*.dat
+*.pkl
+*.caffemodel
+*.prototxt
+
+# Ruff Cache
+.ruff_cache
+
+# Cluade file
+CLAUDE.md
+
+# Data
+data/
+
+# Test
+.pytest_cache
